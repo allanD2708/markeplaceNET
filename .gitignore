@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+*.user
+*.db
+*.sqlite
+.env
+node_modules/
+wwwroot/imagenes/
