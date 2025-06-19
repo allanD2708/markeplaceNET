@@ -19,7 +19,7 @@ namespace ticomarkenet.Controllers
             _context = context;
         }
 
-        // GET: Productoes
+        // GET: Productoes de prueba
         public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Productos.Include(p => p.Usuario);
